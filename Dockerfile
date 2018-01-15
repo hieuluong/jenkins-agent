@@ -1,5 +1,5 @@
 # Get latest Jenkins agent from offical jenkinsci/jenkins docker
-FROM jenkinsci/jnlp-slave:2.62
+FROM jenkinsci/jenkins:2.46.1
 
 USER root
 RUN apt-get update -qq
