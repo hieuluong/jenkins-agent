@@ -1,5 +1,5 @@
 # Get latest Jenkins agent from offical jenkinsci/jenkins docker
-FROM jenkinsci/jenkins:2.46.1
+FROM jenkinsci/jenkins:lts
 
 USER root
 RUN apt-get update -qq
